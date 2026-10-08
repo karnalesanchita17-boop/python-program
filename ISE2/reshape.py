@@ -1,0 +1,10 @@
+import numpy as np
+arr = np.arange(1, 13)
+print("1D Array:")
+print(arr)
+arr_2d = arr.reshape(3, 4)
+print("\n2D Array:")
+print(arr_2d)
+arr_3d = arr.reshape(2, 2, 3)
+print("\n3D Array:")
+print(arr_3d)
